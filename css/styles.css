@@ -4,7 +4,18 @@
 }
 
 body {
-  background: #1cefff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #c0c0aa, #1cefff); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #c0c0aa, #1cefff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #F8F8F8; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #6add5b, #1cefff); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #6add5b, #1cefff); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+
+.page .header {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
